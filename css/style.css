@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Dancing Script', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+  color: black;
+}
+
+h3 {
+  font-size: .6em;
+  color: black;
+}
+
+/* NAVBAR SECTION */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+span {
+  font-weight: bold;
+  color: gold;
+}
+
+header {
+  background: linear-gradient(black, gold);
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  width: 40px;
+  height: 80px;
+  float: left;
+  padding: 0 0;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+.logo-two {
+  float: left;
+  height: 10px;
+  margin-top: 55px;
+  margin-left: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 80px;
+  padding-top: 35px;
+
+  /* pseudo-element for hover effect */
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #D4AF37;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #D4AF37;
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  width: 0;
+
+/* pseudo-element for hover effect */
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/* ABOUT SECTION */
+
+.about {
+  text-align: center;
+  line-height: 1em;
+  color: #D4AF37;
+  font-size: 3.0em;
+  margin-top: 20px;
+}
+
+/* PROJECTS SECTION */
+
+.projects {
+  text-align: center;
+  line-height: 1em;
+  color: #D4AF37;
+  font-size: 2em;
+  margin-top: 80px;
+}
+
+.gallery {
+  margin: 30px auto;
+}
+.gallery img {
+  width: 180px;
+  height: 175px;
+  filter: grayscale(100%);
+  transition: 1s;
+}
+
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* PRICING SECTION */
+
+.pricing {
+  text-align: center;
+  line-height: 1em;
+  color: #D4AF37;
+  font-size: 2em;
+  margin-top: 80px;
+}
+
+
+/* CONTACT SECTION */
+
+.contact {
+  text-align: center;
+  line-height: 1em;
+  color: #D4AF37;
+  font-size: 2em;
+  margin-top: 80px;
+}
+
+.link-img {
+  width: 50px;
+  height: 50px;
+}
