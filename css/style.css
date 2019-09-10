@@ -205,3 +205,11 @@ form {
 
     }
 }
+
+
+@media only screen and (max-width: 480px) {
+    form {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+}
