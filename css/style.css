@@ -164,6 +164,11 @@ form {
   text-align: center;
 }
 
+textarea {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
 
 /* CONTACT SECTION */
 
