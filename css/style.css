@@ -17,6 +17,10 @@ p {
   color: black;
 }
 
+h1 {
+  margin-bottom: 20px;
+}
+
 h3 {
   font-size: .6em;
   color: black;
@@ -154,6 +158,10 @@ nav a:hover::before {
   color: #D4AF37;
   font-size: 2em;
   margin-top: 80px;
+}
+
+form {
+  text-align: center;
 }
 
 
