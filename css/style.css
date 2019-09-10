@@ -166,7 +166,7 @@ form {
 
 textarea {
   overflow-x: auto;
-  overflow-y: auto;
+max-width: 80px;
 }
 
 
