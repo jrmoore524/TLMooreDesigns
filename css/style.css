@@ -121,7 +121,6 @@ nav a:hover::before {
 
 .about {
   text-align: center;
-  line-height: 1em;
   color: #D4AF37;
   font-size: 3.0em;
   margin-top: 20px;
@@ -131,7 +130,6 @@ nav a:hover::before {
 
 .projects {
   text-align: center;
-  line-height: 1em;
   color: #D4AF37;
   font-size: 2em;
   margin-top: 80px;
@@ -156,7 +154,6 @@ nav a:hover::before {
 
 .pricing {
   text-align: center;
-  line-height: 1em;
   color: #D4AF37;
   font-size: 2em;
   margin-top: 80px;
@@ -171,7 +168,6 @@ form {
 
 .contact {
   text-align: center;
-  line-height: 1em;
   color: #D4AF37;
   font-size: 2em;
   margin-top: 80px;
