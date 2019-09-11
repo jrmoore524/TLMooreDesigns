@@ -137,7 +137,7 @@ nav a:hover::before {
   text-align: center;
   color: #D4AF37;
   font-size: 2em;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .gallery {
@@ -161,7 +161,7 @@ nav a:hover::before {
   text-align: center;
   color: #D4AF37;
   font-size: 2em;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 form {
@@ -175,7 +175,7 @@ form {
   text-align: center;
   color: #D4AF37;
   font-size: 2em;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .link-img {
