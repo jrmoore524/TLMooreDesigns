@@ -215,4 +215,7 @@ footer {
     p {
       font-size: 20px;
     }
+    .reviews {
+      margin-left: 0px;
+    }
 }
