@@ -168,6 +168,11 @@ form {
   text-align: center;
 }
 
+.reviews {
+  text-align: center;
+  margin-left: 200px;
+}
+
 
 /* CONTACT SECTION */
 
@@ -176,6 +181,7 @@ form {
   color: #D4AF37;
   font-size: 2em;
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .link-img {
