@@ -29,7 +29,7 @@
     </div>
   </header>
 
-  <section id="about" class="about">
+<section id="about" class="about">
   <h1>Tara Moore</h1>
   <img src="images/tara.jpg" alt="">
   <h3>Custom Vinyl Specialist</h3>
@@ -37,7 +37,7 @@
 </section>
 
 <section id="projects" class="projects">
-<h1>Some of my Projects!</h1>
+	<h1>Some of my Projects!</h1>
 <div class="fotorama" data-width="100%" data-ratio="2048/1080" data-transition="crossfade" data-loop="true"  data-autoplay="true"  data-keyboard="true"  data-allowfullscreen="native">
   <img src="images/FullSizeRender.jpg">
   <img src="images/FullSizeRender_1.jpg" alt="">
@@ -67,10 +67,12 @@
 </section>
 
 <section id="pricing" class="pricing">
-<h1>Custom Design Pricing</h1>
+	<h1>Custom Design Pricing</h1>
 <p>Your custom vinyl project is my top priority! Please fill out the form below with the ideas you have for your project, and I will contact you with a quote and a sample of your customized design. Please add as many details as you can in the form to help with the sample rendering process!</p>
 </section>
+
 <br>
+
 <form>
      <iframe id="JotFormIFrame-92519097350158" title="Information Request Form" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/92519097350158" frameborder="0" style=" min-width: 100%; height:539px; border:none;" scrolling="no" > </iframe> <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-92519097350158"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { if (typeof e.data === 'object') { return; } var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) { return; } switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; case "loadScript": var src = args[1]; if (args.length > 3) { src = args[1] + ':' + args[2]; } var script = document.createElement('script'); script.src = src; script.type = 'text/javascript'; document.body.appendChild(script); break; case "exitFullscreen": if (window.document.exitFullscreen) window.document.exitFullscreen(); else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen(); else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen(); else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen(); else if (window.document.msExitFullscreen) window.document.msExitFullscreen(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
 </form>
@@ -83,12 +85,12 @@
   <a id="profile-link" class="profile-link" href="https://facebook.com/tlmooredesigns" target="_blank">
     <img class="link-img" src="https://cdn3.iconfinder.com/data/icons/facebook-ui-flat/48/Facebook_UI-04-512.png"></img>
   </a>
-  </section>
+</section>
 
-<form id="reviews" class="reviews">
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-e4db61d4-9d54-4c07-af2f-bf543e52158c"></div>
-</form>
+<section>
+<div class="powr-reviews" id="257a8214_1588549791"></div>
+<script src="https://www.powr.io/powr.js?platform=html"></script>
+</section>
 
   <br>
   <footer>&copy; Copyright 2019 TLMoore Designs</footer>
