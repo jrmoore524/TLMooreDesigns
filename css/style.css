@@ -8,12 +8,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family:'Shadows Into Light', sans-serif;
-  font-size: 20px;
   font-weight: bold;
 }
 
 p {
-  font-size: 25px;
+  font-size: 30px;
   color: black;
   margin-left: 10px;
   margin-right: 10px;
@@ -122,8 +121,14 @@ nav a:hover::before {
 .about {
   text-align: center;
   color: #D4AF37;
-  font-size: 2.0em;
+  font-size: 3em;
   margin-top: 20px;
+}
+
+.about h3 {
+  font-size: 1em;
+  text-align: center;
+  color: #D4AF37;
 }
 
 .about img {
@@ -168,6 +173,23 @@ margin-left: 445px;
   margin-top: 70px;
 }
 
+.pricingList h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 70px;
+  color: #D4AF37;
+}
+
+.pricingList h2 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.pricingList li {
+  text-align: center;
+  font-size: 1.8em;
+}
+
 form {
   text-align: center;
 }
@@ -189,8 +211,8 @@ form {
 }
 
 .link-img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 
 /* FOOTER */
