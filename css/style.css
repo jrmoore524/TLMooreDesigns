@@ -193,7 +193,8 @@ nav a:hover::before {
 
 .pricingList li {
   text-align: center;
-  font-size: 1.8em;
+  font-size: 30px;
+
 }
 
 form {
