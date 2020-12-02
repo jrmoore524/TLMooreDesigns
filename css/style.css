@@ -146,9 +146,12 @@ nav a:hover::before {
 }
 
 .fotorama {
-  width: auto;
-  height: auto;
-  margin-left: 450px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  
 }
 
 
@@ -245,7 +248,12 @@ footer {
       font-size: 20px;
     }
 
-    
+    .fotorama {
+      margin-top: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+      margin-left: auto;
+    }
     .reviews {
       margin-left: 40px;
     }
