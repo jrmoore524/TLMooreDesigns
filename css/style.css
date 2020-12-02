@@ -230,7 +230,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .about img {
       width: 225px;
       height: 225px;
