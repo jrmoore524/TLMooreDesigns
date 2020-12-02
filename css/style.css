@@ -244,6 +244,11 @@ footer {
     p {
       font-size: 20px;
     }
+
+    .fotorama {
+      width: auto;
+      height: auto;
+    }
     .reviews {
       margin-left: 40px;
     }
