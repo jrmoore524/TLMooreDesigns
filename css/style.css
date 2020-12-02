@@ -140,6 +140,9 @@ nav a:hover::before {
   margin-top: 70px;
 }
 
+.fotorama {
+margin-left: 450px;
+}
 
 .gallery {
   margin: 30px auto;
