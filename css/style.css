@@ -278,13 +278,13 @@ footer {
       font-size: 20px;
     }
     .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce {
-      margin-right: 400px;
+      margin-right: 200px;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1080px) and (orientation: landscape){
     /*For tablet: Landscape*/
     .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce {
-      margin-right: 500px;
+      margin-right: 600px;
   }
   }
 
