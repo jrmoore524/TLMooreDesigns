@@ -296,9 +296,12 @@ footer {
       text-align: center;
       font-size: 20px;
     }
-     /* For desktop: */
+  }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
   .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-left: 0px;
+    margin-left: 185px;
   }
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -313,8 +316,6 @@ footer {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
-
- 
 
 @media only screen and (min-width: 1281px) {
     /*For large desktops*/
