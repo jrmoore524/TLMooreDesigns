@@ -245,7 +245,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 481px){
   /*For tablet*/
     .about img {
       width: 225px;
