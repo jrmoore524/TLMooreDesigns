@@ -206,18 +206,20 @@ form {
 
 .reviews {
   text-align: center;
-  margin-top: 100px;
 }
 
 .reviews h1 {
   text-align: center;
   font-size: 3em;
-  margin-top: 70px;
   color: #D4AF37;
 }
 
 .reviews p {
-  margin-bottom: 30px;
+  margin-bottom: 75px;
+}
+
+.elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
+  margin-bottom: 75px;
 }
 
 /* CONTACT SECTION */
