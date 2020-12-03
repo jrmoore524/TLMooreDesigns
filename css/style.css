@@ -281,14 +281,14 @@ footer {
 @media only screen and (min-width: 440px) {
   /* For tablets: */
   .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-left: 250px;
+    margin-left: 150x;
       }
 }
 
 @media only screen and (min-width: 1280px) {
   /* For desktop: */
   .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-left: 300px;
+    margin-left: 350px;
   }
 }
 
