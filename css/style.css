@@ -246,7 +246,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 400px) {
-  /* For tablets: */
+  /* For tablets: Portrait*/
   .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
     margin-left: 0px;
       }
@@ -263,6 +263,14 @@ footer {
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
 }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+  .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
+    margin-left: 0px;
+      }
+}
+
+/* For tablets: Landscape*/
 
 @media only screen and (max-width: 768px) {
   /* For desktop: */
