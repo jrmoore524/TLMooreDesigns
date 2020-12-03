@@ -281,7 +281,7 @@ footer {
       margin-left: 800px;
   }
 
-  @media only screen and (min-width: 1024px) and (orientation: landscape){
+  @media only screen and (min-width: 1024px) {
     /*For desktops*/
     .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce {
       margin-right: 550px;
