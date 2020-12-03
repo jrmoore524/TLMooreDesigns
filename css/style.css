@@ -264,14 +264,6 @@ footer {
   .col-s-12 {width: 100%;}
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
-  .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-right: 100px;
-      }
-}
-
-/* For tablets: Landscape*/
-
 @media only screen and (max-width: 768px) {
   /* For desktop: */
     .about img {
@@ -323,6 +315,13 @@ footer {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+  /* For tablets: Landscape*/
+.elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
+    margin-right: 100px;
+      }
 }
 
 @media only screen and (min-width: 1281px) {
