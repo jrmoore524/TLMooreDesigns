@@ -245,7 +245,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 481px){
+@media only screen and (min-width: 720px){
   /*For tablet*/
     .about img {
       width: 225px;
@@ -282,9 +282,9 @@ footer {
   }
 
   /*For desktops*/
-  @media only screen and (min-width: 1281px) {
+  @media only screen and (min-width: 1080px) {
     .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce {
-      margin-left: 300px;
+      margin-left: 100px;
   }
   }
 
