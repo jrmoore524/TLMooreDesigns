@@ -325,7 +325,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
       }
 }
 
-@media only screen and (min-width: 1281px) {
+@media only screen and (min-width: 1366px) {
     /*For large desktops*/
     .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce {
       margin-left: 600px;
