@@ -245,7 +245,8 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
   /* For tablets: Portrait*/
   .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
     margin-left: 0px;
@@ -317,7 +318,7 @@ footer {
   .col-12 {width: 100%;}
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5){
   /* For tablets: Landscape*/
 .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
     margin-right: 500px;
