@@ -321,7 +321,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5){
   /* For tablets: Landscape*/
 .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-right: 400px;
+    margin-right: 300px;
       }
 }
 
