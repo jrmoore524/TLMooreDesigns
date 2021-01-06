@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../images/rustic.jpg");
+  background-image: url("../images/rustic4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family:'Shadows Into Light', sans-serif;
@@ -20,12 +20,12 @@ p {
 
 h1 {
   margin-bottom: 20px;
-  color: rgb(2, 2, 75);
+  color:rgb(2, 2, 75);
 }
 
 h3 {
   font-size: .8em;
-  color:rgb(2, 2, 75);
+  color: white;
 }
 
 /* NAVBAR SECTION */
@@ -119,92 +119,32 @@ nav a:hover::before {
   width: 100%;
 }
 
-/* ABOUT SECTION */
 
-.about {
-  text-align: center;
-  color: white;
-  font-size: 3em;
-  margin-top: 20px;
-}
+/*REVIEWS SECTION*/
 
-.about h3 {
-  font-size: 1em;
-  text-align: center;
-  color:rgb(2, 2, 75);
-}
+ .reviews {
+    text-align: center;
+  }
+  
+  .reviews h1 {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(2, 2, 75);
+  }
+  
+  .reviews p {
+    margin-top: 25px;
+  }
+  
+  .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+  }
 
-.about img {
-  width: 300px;
-  height: 300px;
-}
+  
+  /* FOOTER */
 
 footer {
-  text-align: center;
-  color: white;
-}
-
-/* MEDIA QUERIES */
-
-@media only screen and (max-width: 768px) {
-    .about img {
-      width: 225px;
-      height: 225px;
-   }
-    
-    nav {
-      display: none;
-    }
-    h1 {
-      font-size: 1.1em;
-    }
-    form {
-      margin-left: 40px;
-      margin-right: 40px;
-    }
-    p {
-      font-size: 20px;
-    }
-
-    .fotorama {
-      margin-top: auto;
-      margin-right: auto;
-      margin-bottom: auto;
-      margin-left: auto;
-    }
-
-    .pricingList li {
-      text-align: center;
-      font-size: 20px;
-    }
-  }
-
-@media only screen and (min-width: 440px) {
-  /* For tablets: */
-  .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-left: 200x;
-      }
-}
-
-@media only screen and (min-width: 1280px) {
-  /* For desktop: */
-  .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
-    margin-left: 350px;
-  }
-}
-
-@media only screen and (min-width: 1920px) {
-    /*For large desktops*/
-    .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce {
-      margin-left: 610px;
-  }
-  form {
     text-align: center;
-    margin-right: none;
   }
-}
-  
-  
-  
-  
-

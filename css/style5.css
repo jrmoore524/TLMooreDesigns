@@ -4,7 +4,7 @@
   }
   
   body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/rustic5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family:'Shadows Into Light', sans-serif;
@@ -13,18 +13,19 @@
   
   p {
     font-size: 30px;
-    color: black;
+    color:rgb(2, 2, 75);
     margin-left: 10px;
     margin-right: 10px;
   }
   
   h1 {
     margin-bottom: 20px;
+    color:rgb(2, 2, 75);
   }
   
   h3 {
-    font-size: .8em;
-    color: black;
+    font-size: 1.4em;
+    color: rgb(2, 2, 75);
   }
   
   /* NAVBAR SECTION */
@@ -36,11 +37,11 @@
   
   span {
     font-weight: bold;
-    color: gold;
+    color: white;
   }
   
   header {
-    background: linear-gradient(black, gold);
+    background: rgb(2, 2, 75);
   }
   
   header::after {
@@ -60,13 +61,14 @@
     color: white;
   }
   
-  .logo-two {
+  #logo-two {
     float: left;
     height: 10px;
     margin-top: 45px;
     margin-left: 0;
     padding: 0;
     font-size: 1em;
+    color: white;
   }
   
   nav {
@@ -81,8 +83,9 @@
   
   nav li {
     display: inline-block;
-    margin-left: 80px;
-    padding-top: 35px;
+    margin-left: 55px;
+    padding-top: 20px;
+    font-size: 1.5em;
   
     /* pseudo-element for hover effect */
     position: relative;
@@ -95,17 +98,17 @@
   }
   
   nav a:hover {
-    color: #D4AF37;
+    color: white;
   }
   
   nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: #D4AF37;
+    background-color: white;
     position: absolute;
     width: 100%;
-    top: 25px;
+    top: 15px;
     width: 0;
   
   /* pseudo-element for hover effect */
@@ -115,12 +118,13 @@
   nav a:hover::before {
     width: 100%;
   }
-
+  
+  
   /* CONTACT SECTION */
 
 .contact {
     text-align: center;
-    color: #D4AF37;
+    color:  rgb(2, 2, 75);
     font-size: 2em;
     margin-top: 10px;
     margin-bottom: 70px;
