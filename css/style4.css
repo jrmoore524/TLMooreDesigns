@@ -41,7 +41,7 @@ span {
 }
 
 header {
-  background: rgb(2, 2, 75);
+  background: linear-gradient(gray, rgb(2, 2, 75));
 }
 
 header::after {
