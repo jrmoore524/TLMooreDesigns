@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../images/rustic4.jpg");
+  background-image: url("../images/rustic5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family:'Shadows Into Light', sans-serif;
@@ -139,12 +139,10 @@ nav a:hover::before {
   .elfsight-app-1310efa7-fd95-43c4-a5bc-7ea6896672ce{
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 300px;
+    margin-left: 600px;
   }
 
-  
-  /* FOOTER */
-
-footer {
+  footer {
     text-align: center;
+    color: rgb(2, 2, 75);
   }

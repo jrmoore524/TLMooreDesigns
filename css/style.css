@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../images/rustic.jpg");
+  background-image: url("../images/rustic5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family:'Shadows Into Light', sans-serif;
@@ -14,6 +14,7 @@ body {
 p {
   font-size: 30px;
   color: rgb(2, 2, 75);
+  margin-top: 25px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -140,8 +141,9 @@ nav a:hover::before {
 }
 
 footer {
+  margin-top: 185px;
   text-align: center;
-  color: white;
+  color: rgb(2, 2, 75);
 }
 
 /* MEDIA QUERIES */
