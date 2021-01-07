@@ -183,4 +183,18 @@
     margin-top: 425px;
   }
 
+  /* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    margin-left: auto;
+  }
+  nav {
+    float: left;
+  }
+  nav li {
+    font-size: 10px ;
+    margin-left: 10px;
+  }
+}
  
